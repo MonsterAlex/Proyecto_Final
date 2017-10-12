@@ -56,13 +56,13 @@ playVideoOnScroll();
 */
 
 $.ajax({
-    url: "data-1.json",
+    url: 'buscador.php',
     type: 'GET',
     dataType: 'json',
-    data: {"Direccion" : "", "Ciudad" : "", "Telefono" : "", "Codigo_Postal" : "", "Tipo" : "", "Precio" : ""},
-    success: function(data){
-                    console.log(data);
-                },
+    data:{},
+    success: function(datas){
+        console.log(datas);
+    },
 });
 /*
 //Mostrar todos los resultados
