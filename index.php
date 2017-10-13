@@ -32,24 +32,6 @@
                             <label for="selectCiudad">Ciudad:</label>
                             <select name="ciudad" id="selectCiudad">
                                 <option value="" selected>Elige una ciudad</option>
-                                <!--<?php
-                                /*if(isset($_GET['todos']))
-                                {
-                                    $json_url = "data-1.json";
-                                    $data=file_get_contents($json_url);
-                                    $ciudades=json_decode($data,true);
-                                    
-                                    for($i=0;$i<count($ciudades);$i++) 
-                                    {
-                                        $ciudad=$ciudades[$i]["Ciudad"];
-                                        
-                                        if($ciudad == $ciudad)
-                                        {
-                                            echo "option value=".$ciudad.">".$ciudad."</option>";
-                                        }
-                                    }
-                                }*/
-                            ?>-->
                                 <option value="New York">New York</option>
                                 <option value="Orlando">Orlando</option>
                                 <option value="Los Angeles">Los Angeles</option>
